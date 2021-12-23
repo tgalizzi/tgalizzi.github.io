@@ -1,12 +1,12 @@
 ---
 layout: page
-title: submenus
+title: Experience
 nav: true
 dropdown: true
 children: 
-    - title: publications
-      permalink: /publications/
+    - title: Stages
+      permalink: /stages/
     - title: divider
-    - title: projects
+    - title: Projets
       permalink: /projects/
 ---
