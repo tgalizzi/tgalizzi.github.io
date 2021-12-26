@@ -28,8 +28,10 @@ pagination:
     {% assign year = post.date | date: "%Y" %}
     {% assign tags = post.tags | join: "" %}
     {% assign categories = post.categories | join: "" %}
-
+    
     <li>
+      <div class="row justify-content-sm-center">
+        <div class="col-sm-8 mt-3 mt-md-0">
       <h3><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </h3>
       <p>{{ post.description }}</p>
@@ -56,14 +58,12 @@ pagination:
               {% endfor %}
           {% endif %}
       </p>
-      <div class="card hoverable">
-        {% if post.img %}
-        THIS IS A TEST
-        {% include figure.html 
-          path=post.img 
-          alt="post thumbnail" %}
-        {% endif %}
-      </div>
+
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/rc-car.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
     </li>
 
     {% endfor %}
