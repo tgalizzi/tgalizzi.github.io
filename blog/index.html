@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Stages
+title: blog
 pagination:
   enabled: true
   collection: posts
@@ -56,6 +56,11 @@ pagination:
               {% endfor %}
           {% endif %}
     </p>
+    {% if post.img %}
+    {% include figure.html 
+      path=post.img 
+      alt="post thumbnail" %}
+    {% endif %}
     </li>
 
     {% endfor %}
