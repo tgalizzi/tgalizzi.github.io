@@ -55,12 +55,15 @@ pagination:
               <i class="fas fa-tag fa-sm"></i> {{ category }}</a> &nbsp;
               {% endfor %}
           {% endif %}
-    </p>
-    {% if post.img %}
-    {% include figure.html 
-      path=post.img 
-      alt="post thumbnail" %}
-    {% endif %}
+      </p>
+      <div class="card hoverable">
+        {% if post.img %}
+        THIS IS A TEST
+        {% include figure.html 
+          path=post.img 
+          alt="post thumbnail" %}
+        {% endif %}
+      </div>
     </li>
 
     {% endfor %}
