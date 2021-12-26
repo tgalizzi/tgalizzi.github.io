@@ -25,14 +25,14 @@
           <!-- About -->
           <li class="nav-item {% if page.title == 'about' %}active{% endif %}">
             <a class="nav-link" href="{{ '/' | relative_url }}">
-              about
+              A propos de moi
               {% if page.title == "about" %}
                 <span class="sr-only">(current)</span>
               {% endif %}
             </a>
-          </li>
+          <!-- </li>
           {% if site.blog_name %}
-          <!-- Blog -->
+          Blog
           <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
             <a class="nav-link" href="{{ '/blog/' | relative_url }}">
               blog
@@ -41,7 +41,7 @@
               {% endif %}
             </a>
           </li>
-          {% endif %}
+          {% endif %} -->
           <!-- Other pages -->
           {% assign sorted_pages = site.pages | sort: "title" %}
           {% for p in sorted_pages %}
