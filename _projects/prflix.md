@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Erato
-description: Réseau de neuronnes pour la génération de poèmes 
+title: PrFlix
+description: Site de recommendation de film par IA
 img: 
 importance: 1
 category: work

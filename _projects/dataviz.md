@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Erato
-description: Réseau de neuronnes pour la génération de poèmes 
+title: Data visualization
+description: Exploration de la crise économique de 2007 aux Etats-Unis
 img: 
 importance: 1
 category: work
