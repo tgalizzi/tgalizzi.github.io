@@ -2,7 +2,7 @@
 layout: page
 title: Erato
 description: Un réseau de neuronnes pour la génération de poèmes
-img: assets/img/12.jpg
+img: assets/img/rc-car.jpg
 importance: 1
 category: work
 ---
