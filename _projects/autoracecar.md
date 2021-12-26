@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Erato
-description: Un réseau de neuronnes pour la génération de poèmes
+title: Autonomous Race Car
+description: Système de navigation autonome pour voiture miniature
 img: assets/img/rc-car.jpg
 importance: 1
 category: work

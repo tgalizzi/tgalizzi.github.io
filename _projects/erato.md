@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Autonomous Race Car
-description: Système de navigation autonome pour voiture miniature
+title: Erato
+description: Un réseau de neuronnes pour la génération de poèmes
+img: 
 importance: 1
 category: work
 ---
