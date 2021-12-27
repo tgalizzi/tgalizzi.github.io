@@ -2,9 +2,9 @@
 layout: page
 title: Erato
 description: Réseau de neuronnes pour la génération de poèmes 
-img: 
+img: assets/img/erato.jpg
 importance: 1
-category: work
+category: Deep learning
 ---
 
 Every project has a beautiful feature showcase page.

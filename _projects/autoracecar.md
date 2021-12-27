@@ -4,7 +4,7 @@ title: Autonomous Race Car
 description: Système de navigation autonome pour voiture miniature
 img: assets/img/rc-car.jpg
 importance: 1
-category: work
+category: Robotique
 ---
 
 Every project has a beautiful feature showcase page.

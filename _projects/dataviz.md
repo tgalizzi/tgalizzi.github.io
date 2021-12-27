@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Data visualization
+title: Découverte de Tableau
 description: Exploration de la crise économique de 2007 aux Etats-Unis
 img: 
 importance: 1
-category: work
+category: Data visualization
 ---
 
 Every project has a beautiful feature showcase page.

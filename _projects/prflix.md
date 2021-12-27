@@ -1,10 +1,10 @@
 ---
-layout: page
+layout: distill
 title: PrFlix
 description: Site de recommendation de film par IA
 img: 
 importance: 1
-category: work
+category: IA
 ---
 
 Every project has a beautiful feature showcase page.
