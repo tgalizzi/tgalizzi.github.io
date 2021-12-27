@@ -2,7 +2,7 @@
 layout: distill
 title: a distill-style blog post
 description: an example of a distill-style blog post and main elements
-date: 2000
+date: 2018
 img: rc-car.jpg
 
 authors:
