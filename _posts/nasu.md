@@ -2,8 +2,7 @@
 layout: distill
 title: a distill-style blog post
 description: an example of a distill-style blog post and main elements
-date: 2017
-img: rc-car.jpg
+date: 2017-09-28 21:01:00
 
 authors:
   - name: Albert Einstein
