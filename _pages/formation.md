@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /formation/
-title: Double diplomé
-description: en informatique et mathématiques appliquées.
+title: Formation
+description: Double diplomé en informatique et mathématiques appliquées.
 years: [Georgia Tech, ENSEEIHT]
 nav: true
 ---
