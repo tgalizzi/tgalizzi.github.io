@@ -12,13 +12,13 @@ nav: true
 {% for y in page.years %}
   <h2 class="year">{{y}}</h2>
   {% if y == "ENSEEIHT" %}
-  <h2>ENSEEIHT</h2>
+  <h2>Science du numérique</h2>
   Diplôme d'ingénieur, spécialisation High Perfomance Computing & Big Data
 
   {% endif %}
   {% if y == "Georgia Tech" %}
-  <h2>Georgia Institute of Technology, College of Computing</h2>
-  Master of science, computer science, spécialisation Machine Learning
+  <h2>College of Computing</h2>
+  Master of science en computer science, spécialisation Machine Learning
 
   {% endif %}
   {% bibliography -f papers -q @*[year={{y}}]* %}
