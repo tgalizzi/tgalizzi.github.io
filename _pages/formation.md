@@ -18,7 +18,7 @@ nav: true
   {% endif %}
   {% if y == "Georgia Tech" %}
   <h2>College of Computing</h2>
-  <p>Master of science en computer science, spécialisation Machine Learning</ p>
+  <p>Master of science en computer science, spécialisation Machine Learning </p>
 
   {% endif %}
   {% bibliography -f papers -q @*[year={{y}}]* %}
