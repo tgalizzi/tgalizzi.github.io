@@ -52,7 +52,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 github_username: tgalizzi # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
-linkedin_username: # your LinkedIn user name
+linkedin_username: Théo Galizzi # your LinkedIn user name
 scholar_userid: # your Google Scholar ID
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
@@ -78,9 +78,9 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio  # your blog must have a name for it to show up in the nav bar
-blog_description: a simple whitespace theme for academics
-permalink: /blog/:year/:title/
+blog_name: Stages  # your blog must have a name for it to show up in the nav bar
+blog_description: réalisés pendant mon cursus d'ingénieur à l'ENSEEIHT
+permalink: /stages/:year/:title/
 
 # Pagination
 pagination:
