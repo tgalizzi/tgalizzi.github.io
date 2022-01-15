@@ -8,11 +8,11 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>Paris, France</p>
+    :pushpin: <p>Paris, France</p>
 
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Porté par l'innovation et les sciences, je suis depuis peu double diplômé de l'<p>ENSEEIHT</p> et de <p>Georgia Tech</p>. Je suis à la recherche d'un emploi long dans les domaines du <p>machine learning</p>, des <p>data science</p> et des <p>mathématiques appliquées</p>.
