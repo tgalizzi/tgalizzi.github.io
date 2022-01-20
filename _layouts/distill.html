@@ -55,7 +55,7 @@
         {% if page.toc %}
         <d-contents>
           <nav class="l-text figcaption">
-          <h3>Contents</h3>
+          <h3>Sommaire</h3>
             {% for section in page.toc %}
             <div><a href="#{{ section.name | downcase | replace: ' ','-' }}">{{ section.name }}</a></div>
             {% if section.subsections %}
@@ -86,7 +86,7 @@
 
   </body>
 
-  <d-bibliography src="{{ page.bibliography | prepend: '/assets/bibliography/' | relative_url }}">
-  </d-bibliography>
+  <!-- <d-bibliography src="{{ page.bibliography | prepend: '/assets/bibliography/' | relative_url }}">
+  </d-bibliography> -->
 
 </html>
