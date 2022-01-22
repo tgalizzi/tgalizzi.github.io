@@ -2,9 +2,9 @@
 layout: page
 title: Projets
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Quelques projets réalisés au cours de ses dernières années.
 nav: true
-display_categories: [Deep learning, Robotique, IA, Data visualization]
+display_categories: [Deep learning, Robotique, Data visualization]
 horizontal: false
 ---
 <div class="projects">
