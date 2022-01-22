@@ -17,14 +17,6 @@
     <script async type="text/json">{
       "title": "{{ page.title }}",
       "description": "{{ page.description }}",
-      "authors": [
-      {% for author in page.authors -%}
-      {
-        "author": "{{ author.name }}",
-        ]
-      }{% if forloop.last == false %},{% endif %}
-      {% endfor %}
-      ],
       "katex": {
         "delimiters": [
           {
