@@ -49,9 +49,10 @@
         <p>{{ page.description }}</p>
       </d-title>
 
-      Test 
-      <d-byline> Test2  </d-byline>
-      Test3
+      <d-byline></d-byline>
+      {% if page.duration %}
+      <div> <i class="fas fa-hourglass-half fa-sm"></i> {{ page.duration }} mois </div>
+      {% endif %}
       <d-article>
         {% if page.toc %}
         <d-contents>
