@@ -36,7 +36,7 @@ Pour pouvoir contrôlé la voiture, la première étape est une tâche de **comp
 Afin d'accomplir cette tâche, nous avons testé de nombreux algorithmes pour voir ce qui fonctionnerait le mieux. Bien que toutes les méthodes ne se soient pas avérées viables, nous avons trouvé que les étapes suivantes étaient les plus efficaces pour la détection de la route : 
 - Cartographie en perspective inverse (birds eye view) à partir des paramètres de la caméra.
 - Segmentation des couleurs
-- Détection des bords de Canny
+- Détection des contours de Canny
 - Transformée de Hough
 - Filtre de Kalman
 
@@ -71,16 +71,37 @@ Afin d'accomplir cette tâche, nous avons testé de nombreux algorithmes pour vo
 
 Une fois la projection obtenue, nous voulons pouvoir detecter ce qui constitu la route, et ce qui n'est pas la route (par exemple, l'herbe sur le bord). La segmentation de couleur permet par clustering, de classer les pixels qui sont la route et ceux qui ne le sont pas, par continuité d'une zone en face de la voiture (le rectangle bleu de la vidéo).
 
-<video controls>
-    <source src=”assets/img/rc/seg.mp4 type=video/mp4>
-</video>
-
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <video controls>
+            <source src=”assets/img/rc/seg.mp4 type=video/mp4>
+        </video>
+    </div>
+</div>
 <div class="caption">
     La segmentation sur l'image de la route après projection.
 </div>
 
-### Détection des bords de Canny
+### Détection des contours de Canny
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/rc/canny.png" title="canny" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        <p> <br> 
+        La détection des contours de Canny est un algorithme de détection des contours en plusieurs étapes. En le réglant correctement, nous avons pu l'utiliser afin d'extraire les bords de la route.  </p>
+    </div>
+</div>
+
+
+
 
 ### Transformée de Hough
 
 ### Filtre de Kalman
+
+
+<br/><br/>
+<br/><br/>
+<br/><br/>
