@@ -40,6 +40,10 @@ Afin d'accomplir cette tâche, nous avons testé de nombreux algorithmes pour vo
 - Transformée de Hough
 - Filtre de Kalman
 
+<br/><br/>
+<br/><br/>
+<br/><br/>
+
 ### Cartographie en perspective inverse
 
 
@@ -66,6 +70,9 @@ Afin d'accomplir cette tâche, nous avons testé de nombreux algorithmes pour vo
 </div>
 
 
+<br/><br/>
+<br/><br/>
+<br/><br/>
 
 ### Segmentation des couleurs
 
@@ -82,6 +89,10 @@ Une fois la projection obtenue, nous voulons pouvoir detecter ce qui constitu la
     La segmentation sur l'image de la route après projection.
 </div>
 
+<br/><br/>
+<br/><br/>
+<br/><br/>
+
 ### Détection des contours de Canny
 
 <div class="row justify-content-sm-center">
@@ -94,7 +105,9 @@ Une fois la projection obtenue, nous voulons pouvoir detecter ce qui constitu la
     </div>
 </div>
 
-
+<br/><br/>
+<br/><br/>
+<br/><br/>
 
 
 ### Transformée de Hough
@@ -111,6 +124,10 @@ Une fois la projection obtenue, nous voulons pouvoir detecter ce qui constitu la
     </div>
 </div>
 
+<br/><br/>
+<br/><br/>
+<br/><br/>
+
 
 ### Filtre de Kalman
 
@@ -124,6 +141,10 @@ Une fois la projection obtenue, nous voulons pouvoir detecter ce qui constitu la
         Le filtre de Kalman est une méthode de filtrage qui permet, à partir d'observations bruitées (ici, la sortie de l'algorithme de Hough), d'estimer l'état d'un système dynamique. Ici, nos mesures nous permettent grâce au filtre de Kalman d'estimer les véritables lignes de la route de manière séquentielle, a chaque image de la caméra.</p>
     </div>
 </div>
+
+<br/><br/>
+<br/><br/>
+<br/><br/>
 
 ### Le résultat
 
