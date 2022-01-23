@@ -48,11 +48,11 @@ Afin d'accomplir cette tâche, nous avons testé de nombreux algorithmes pour vo
 
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.html path="assets/img/rc/birds.png" title="birds" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        <p> <br> La méthode "Birds eye view" a pour but de projecter l'image de la caméra sur le plan du sol. De cette façon, les lignes de la route seront parallèle. Cette méthode a pour but de faciliter les traitements suivant.  </p>
+    <div class="col-sm-8 mt-3 mt-md-0">
+        <p> La méthode "Birds eye view" a pour but de projecter l'image de la caméra sur le plan du sol. De cette façon, les lignes de la route seront parallèle. Cette méthode a pour but de faciliter les traitements suivant.  </p>
     </div>
 </div>
 
@@ -96,12 +96,11 @@ Une fois la projection obtenue, nous voulons pouvoir detecter ce qui constitu la
 ### Détection des contours de Canny
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.html path="assets/img/rc/canny.png" title="canny" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        <p> <br> 
-        La détection des contours de Canny est un algorithme de détection des contours en plusieurs étapes. En le réglant correctement, nous avons pu l'utiliser afin d'extraire les bords de la route.  </p>
+    <div class="col-sm-8 mt-3 mt-md-0">
+        <p> La détection des contours de Canny est un algorithme de détection des contours en plusieurs étapes. En le réglant correctement, nous avons pu l'utiliser afin d'extraire les bords de la route.  </p>
     </div>
 </div>
 
@@ -115,12 +114,11 @@ Une fois la projection obtenue, nous voulons pouvoir detecter ce qui constitu la
 
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.html path="assets/img/rc/hough.png" title="hough" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        <p> <br> 
-        La transformée de Hough peut être utilisée pour détecter n'importe quelle forme. Dans notre situation, nous l'avons utilisée pour détecter les bords de la route. A chaque image de la vidéo filmée par la camera, cet algorithme nous renvoie un nombre important de "lignes" candidates comme bords de route. Les lignes blanches sont la sortie de l'algorithme de Hough. Seules les lignes avec un petit angle ont été sélectionnées comme une observation correcte.</p>
+    <div class="col-sm-8 mt-3 mt-md-0">
+        <p> La transformée de Hough peut être utilisée pour détecter n'importe quelle forme. Dans notre situation, nous l'avons utilisée pour détecter les bords de la route. A chaque image de la vidéo filmée par la camera, cet algorithme nous renvoie un nombre important de "lignes" candidates comme bords de route. Les lignes blanches sont la sortie de l'algorithme de Hough. Seules les lignes avec un petit angle ont été sélectionnées comme une observation correcte.</p>
     </div>
 </div>
 
@@ -133,12 +131,11 @@ Une fois la projection obtenue, nous voulons pouvoir detecter ce qui constitu la
 
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.html path="assets/img/rc/kalman.png" title="hough" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        <p> <br> 
-        Le filtre de Kalman est une méthode de filtrage qui permet, à partir d'observations bruitées (ici, la sortie de l'algorithme de Hough), d'estimer l'état d'un système dynamique. Ici, nos mesures nous permettent grâce au filtre de Kalman d'estimer les véritables lignes de la route de manière séquentielle, a chaque image de la caméra.</p>
+    <div class="col-sm-8 mt-3 mt-md-0">
+        <p> Le filtre de Kalman est une méthode de filtrage qui permet, à partir d'observations bruitées (ici, la sortie de l'algorithme de Hough), d'estimer l'état d'un système dynamique. Ici, nos mesures nous permettent grâce au filtre de Kalman d'estimer les véritables lignes de la route de manière séquentielle, a chaque image de la caméra.</p>
     </div>
 </div>
 
