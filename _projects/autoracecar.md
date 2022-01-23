@@ -42,8 +42,6 @@ Afin d'accomplir cette tâche, nous avons testé de nombreux algorithmes pour vo
 - Filtre de Kalman
 
 <br/><br/>
-<br/><br/>
-<br/><br/>
 
 ### Cartographie en perspective inverse
 
@@ -72,8 +70,6 @@ Afin d'accomplir cette tâche, nous avons testé de nombreux algorithmes pour vo
 
 
 <br/><br/>
-<br/><br/>
-<br/><br/>
 
 ### Segmentation des couleurs
 
@@ -91,8 +87,6 @@ Une fois la projection obtenue, nous voulons pouvoir detecter ce qui constitu la
 </div>
 
 <br/><br/>
-<br/><br/>
-<br/><br/>
 
 ### Détection des contours de Canny
 
@@ -105,8 +99,6 @@ Une fois la projection obtenue, nous voulons pouvoir detecter ce qui constitu la
     </div>
 </div>
 
-<br/><br/>
-<br/><br/>
 <br/><br/>
 
 
@@ -124,8 +116,6 @@ Une fois la projection obtenue, nous voulons pouvoir detecter ce qui constitu la
 </div>
 
 <br/><br/>
-<br/><br/>
-<br/><br/>
 
 
 ### Filtre de Kalman
@@ -140,8 +130,6 @@ Une fois la projection obtenue, nous voulons pouvoir detecter ce qui constitu la
     </div>
 </div>
 
-<br/><br/>
-<br/><br/>
 <br/><br/>
 
 ### Le résultat
