@@ -3,6 +3,7 @@ layout: page
 title: MockProject
 description: a project with a background image
 importance: 1
+category: Autre
 ---
 
 Every project has a beautiful feature showcase page.
