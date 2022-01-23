@@ -23,10 +23,10 @@
       <div class="collapse navbar-collapse text-right" id="navbarNav">
         <ul class="navbar-nav ml-auto flex-nowrap">
           <!-- About -->
-          <li class="nav-item {% if page.title == 'about' %}active{% endif %}">
+          <li class="nav-item {% if page.title == 'A propos de moi' %}active{% endif %}">
             <a class="nav-link" href="{{ '/' | relative_url }}">
             <b>A propos de moi</b>
-              {% if page.title == "about" %}
+              {% if page.title == "A propos de moi" %}
                 <span class="sr-only">(current)</span>
               {% endif %}
             </a>
@@ -49,9 +49,6 @@
           {% if p.dropdown %}
           <li class="nav-item dropdown {% if page.title == p.title %}active{% endif %}">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                {% if p.title == "Formation" %}
-                <i class="fas fa-graduation-cap fa-sm"></i>
-                {% endif %}
                 <b>{{ p.title }}</b>
                 {% if page.title == p.title %}
                 <span class="sr-only">(current)</span>
@@ -70,6 +67,9 @@
           {% else %}
           <li class="nav-item {% if page.title == p.title %}active{% endif %}">
               <a class="nav-link" href="{{ p.url | relative_url }}">
+                {% if p.title == "Formation" %}
+                <i class="fas fa-graduation-cap fa-sm"></i>
+                {% endif %}
                 <b>{{ p.title }}</b>
                 {% if page.title == p.title %}
                 <span class="sr-only">(current)</span>
