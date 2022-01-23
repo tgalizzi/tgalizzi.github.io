@@ -74,7 +74,7 @@ Une fois la projection obtenue, nous voulons pouvoir detecter ce qui constitu la
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <video controls>
-            <source src=”assets/img/rc/seg.mp4 type=video/mp4>
+            <source src="assets/img/rc/seg.mp4" type=video/mp4>
         </video>
     </div>
 </div>
