@@ -12,11 +12,13 @@ nav: true
 {% for y in page.years %}
   <h2 class="year">{{y}}</h2>
   {% if y == "ENSEEIHT" %}
+  <br></br>
   <h2>Informatique & Mathématiques appliquées</h2>
   <p>Diplôme d'ingénieur, spécialisation High Perfomance Computing & Big Data</p>
 
   {% endif %}
   {% if y == "Georgia Tech" %}
+  <br></br>
   <h2>College of Computing</h2>
   <p>Master of science en computer science, spécialisation Machine Learning </p>
 
