@@ -30,8 +30,7 @@ layout: default
       {% if categories != "" %}
       <!-- &nbsp; &middot; &nbsp; -->
         {% for category in page.categories %}
-        <a href="{{ category | prepend: '/blog/category/' | prepend: site.baseurl}}">
-          <i class="fas fa-tag fa-sm"></i> {{ category }}</a> &nbsp;
+          <i class="fas fa-tag fa-sm"></i> {{ category }}
           {% endfor %}
       {% endif %}
 
