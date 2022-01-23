@@ -29,9 +29,9 @@ Notre objectif était de permettre à la voiture de réaliser des tours autour d
 </div>
 
 
-## La detection de la route
+## La detection de la route 
 
-Pour pouvoir contrôlé la voiture, la première étape est une tâche de **computer vision**. La voiture, équipé d'une caméra, film en continu son envirronement. L'objectif est d'utiliser ces images afin d'extraire la route et utiliser ces données pour le contrôl de la voiture.
+Pour pouvoir contrôlé la voiture, la première étape est une tâche de **computer vision**. La voiture, équipé d'une caméra, film en continu son envirronement. L'objectif est d'utiliser ces images afin d'extraire la route et utiliser ces données pour le contrôle de la voiture.
 
 Afin d'accomplir cette tâche, nous avons testé de nombreux algorithmes pour voir ce qui fonctionnerait le mieux. Bien que toutes les méthodes ne se soient pas avérées viables, nous avons trouvé que les étapes suivantes étaient les plus efficaces pour la détection de la route : 
 - Cartographie en perspective inverse (birds eye view) à partir des paramètres de la caméra.
@@ -74,7 +74,7 @@ Une fois la projection obtenue, nous voulons pouvoir detecter ce qui constitu la
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <video controls>
-            <source src="assets/img/rc/seg.mp4" type=video/mp4>
+            <source src="assets/img/rc/seg.mp4" type="video/mp4">
         </video>
     </div>
 </div>
@@ -99,8 +99,50 @@ Une fois la projection obtenue, nous voulons pouvoir detecter ce qui constitu la
 
 ### Transformée de Hough
 
+
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/rc/hough.png" title="hough" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        <p> <br> 
+        La transformée de Hough peut être utilisée pour détecter n'importe quelle forme. Dans notre situation, nous l'avons utilisée pour détecter les bords de la route. A chaque image de la vidéo filmée par la camera, cet algorithme nous renvoie un nombre important de "lignes" candidates comme bords de route. Les lignes blanches sont la sortie de l'algorithme de Hough. Seules les lignes avec un petit angle ont été sélectionnées comme une observation correcte.</p>
+    </div>
+</div>
+
+
 ### Filtre de Kalman
 
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/rc/kalman.png" title="hough" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        <p> <br> 
+        Le filtre de Kalman est une méthode de filtrage qui permet, à partir d'observations bruitées (ici, la sortie de l'algorithme de Hough), d'estimer l'état d'un système dynamique. Ici, nos mesures nous permettent grâce au filtre de Kalman d'estimer les véritables lignes de la route de manière séquentielle, a chaque image de la caméra.</p>
+    </div>
+</div>
+
+### Le résultat
+
+Après toutes ces étapes, nous avons une mesure des bords de la route. En reprojetant nos bords de route dans le plan de la caméra, nous avons une segmentation complète. Voici un exemple de ce que donne notre méthode en situation réelle.
+
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <video controls>
+            <source src="assets/img/rc/kalman.mp4" type="video/mp4">
+        </video>
+    </div>
+</div>
+<div class="caption">
+    Extraction de la route.
+</div>
+
+
+## Le contrôle
 
 <br/><br/>
 <br/><br/>
