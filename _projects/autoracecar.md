@@ -31,7 +31,7 @@ Notre objectif était de permettre à la voiture de réaliser des tours autour d
 
 ## La detection de la route 
 
-Pour pouvoir contrôlé la voiture, la première étape est une tâche de **computer vision**. La voiture, équipé d'une caméra, film en continu son envirronement. L'objectif est d'utiliser ces images afin d'extraire la route et utiliser ces données pour le contrôle de la voiture.
+Pour pouvoir contrôler la voiture, la première étape est une tâche de **computer vision**. La voiture, équipé d'une caméra, film en continu son envirronement. L'objectif est d'utiliser ces images afin d'extraire la route et utiliser ces données pour le contrôle de la voiture.
 
 Afin d'accomplir cette tâche, nous avons testé de nombreux algorithmes pour voir ce qui fonctionnerait le mieux. Bien que toutes les méthodes ne se soient pas avérées viables, nous avons trouvé que les étapes suivantes étaient les plus efficaces pour la détection de la route : 
 - Cartographie en perspective inverse (birds eye view) à partir des paramètres de la caméra.
@@ -73,7 +73,7 @@ Une fois la projection obtenue, nous voulons pouvoir detecter ce qui constitu la
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <video controls>
+        <video controls width="800">
             <source src="/assets/img/rc/seg.mp4" type="video/mp4">
         </video>
     </div>
@@ -132,7 +132,7 @@ Après toutes ces étapes, nous avons une mesure des bords de la route. En repro
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <video controls>
+        <video controls width="800">
             <source src="/assets/img/rc/kalman.mp4" type="video/mp4">
         </video>
     </div>
