@@ -151,6 +151,20 @@ Après toutes ces étapes, nous avons une mesure des bords de la route. En repro
 
 ## Le contrôle
 
-<br/><br/>
-<br/><br/>
+Nous avons commencer par un contrôle très simple, de suivi de ligne.
+Ainsi, la voiture se rapproche du centre de la route tout en suivant son axe.
+
+Malheuresement, ce projet a été stoppé net par la crise sanitaire. Le premier confinenement nous a empêché de mener ce projet jusqu'au bout. Notre méthode, testée sur le simulateur airsim, semblait très prometteuse.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <video controls width="800">
+            <source src="/assets/img/rc/simu.mp4" type="video/mp4">
+        </video>
+    </div>
+</div>
+<div class="caption">
+    Aperçu de notre contrôle autonome sur le simulateur airsim.
+</div>
+
 <br/><br/>

@@ -4,7 +4,7 @@ title: Projets
 permalink: /projects/
 description: Quelques projets réalisés au cours de ses dernières années.
 nav: true
-display_categories: [Robotique, Deep learning, Data visualization, Autre]
+display_categories: [Robotique, Deep learning, Data visualization]
 horizontal: false
 ---
 <div class="projects">
