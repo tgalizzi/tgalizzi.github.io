@@ -23,7 +23,9 @@ Nous avons travailler avec le logiciel [Tableau](https://www.tableau.com/fr-fr),
 Voici notre video de présentation réalisé pour le cours.
 
 <div class="l-screen">
+    <div style="text-align:center">
     <iframe width="887" height="499" src="https://www.youtube.com/embed/CwQSJmvboBg" title="dataviz" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 </div>
 
 
