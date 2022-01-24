@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: distill
 title: Découverte de Tableau
 description: Exploration de la crise économique de 2007 aux Etats-Unis
 img: assets/img/tableau.png
@@ -28,10 +28,6 @@ category: Data visualization
         </iframe>
 </d-article>
 
-<d-article.l-screen">
-    <iframe src="https://public.tableau.com/views/CS6730-2007Crisis/Introduction?:language=fr-FR&:display_count=n&:origin=viz_share_link:showVizHome=no&:embed=true">
-        </iframe>
-</d-article>
 
 <d-article l-screen>
     <iframe src="https://public.tableau.com/views/CS6730-2007Crisis/Introduction?:language=fr-FR&:display_count=n&:origin=viz_share_link:showVizHome=no&:embed=true">
@@ -44,3 +40,9 @@ category: Data visualization
         </iframe>
 </l-screen>
 </d-article>
+
+
+<div class="l-screen">
+    <iframe src="https://public.tableau.com/views/CS6730-2007Crisis/Introduction?:language=fr-FR&:display_count=n&:origin=viz_share_link:showVizHome=no&:embed=true">
+        </iframe>
+</div>
