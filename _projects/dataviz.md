@@ -8,41 +8,8 @@ category: Data visualization
 ---
 
 
-<d-article class="l-screen">
-    <iframe src="https://public.tableau.com/views/CS6730-2007Crisis/Introduction?:language=fr-FR&:display_count=n&:origin=viz_share_link:showVizHome=no&:embed=true">
-        </iframe>
-</d-article>
-
-<d-article class=".l-screen">
-    <iframe src="https://public.tableau.com/views/CS6730-2007Crisis/Introduction?:language=fr-FR&:display_count=n&:origin=viz_share_link:showVizHome=no&:embed=true">
-        </iframe>
-</d-article>
-
-<d-article layout="l-screen">
-    <iframe src="https://public.tableau.com/views/CS6730-2007Crisis/Introduction?:language=fr-FR&:display_count=n&:origin=viz_share_link:showVizHome=no&:embed=true">
-        </iframe>
-</d-article>
-
-<d-article layout=".l-screen">
-    <iframe src="https://public.tableau.com/views/CS6730-2007Crisis/Introduction?:language=fr-FR&:display_count=n&:origin=viz_share_link:showVizHome=no&:embed=true">
-        </iframe>
-</d-article>
-
-
-<d-article l-screen>
-    <iframe src="https://public.tableau.com/views/CS6730-2007Crisis/Introduction?:language=fr-FR&:display_count=n&:origin=viz_share_link:showVizHome=no&:embed=true">
-        </iframe>
-</d-article>
-
-<d-article> 
-<l-screen>
-    <iframe src="https://public.tableau.com/views/CS6730-2007Crisis/Introduction?:language=fr-FR&:display_count=n&:origin=viz_share_link:showVizHome=no&:embed=true">
-        </iframe>
-</l-screen>
-</d-article>
-
-
 <div class="l-screen">
-    <iframe src="https://public.tableau.com/views/CS6730-2007Crisis/Introduction?:language=fr-FR&:display_count=n&:origin=viz_share_link:showVizHome=no&:embed=true">
-        </iframe>
+    <div class="center">
+        <iframe width="1800" height="1000" src="https://public.tableau.com/views/CS6730-2007Crisis/Introduction?:language=fr-FR&:display_count=n&:origin=viz_share_link:showVizHome=no&:embed=true"></iframe>
+    </div>
 </div>
