@@ -18,7 +18,7 @@ Nous avons choisi de travailler sur la **crise économique de 2007-2008 aux Etat
 
 Nous avons travailler avec le logiciel [**Tableau**](https://www.tableau.com/fr-fr), et construit un projet d'exploration intéractif.
 
-##   
+## Notre présentation vidéo
 
 Voici notre video de présentation réalisé pour le cours.
 
@@ -29,7 +29,12 @@ Voici notre video de présentation réalisé pour le cours.
 </div>
 
 
-Notre projet est disponible en suivant ce [lien](https://public.tableau.com/app/profile/th.o.galizzi/viz/CS6730-2007Crisis/Introduction), ou bien ci dessous (si notre projet vous interesse, je vous conseille de suivre le lien si vous et de mettre le projet en grand écran). 
+
+## Envie d'explorer notre projet ? 
+
+Notre projet est disponible en suivant ce [lien](https://public.tableau.com/app/profile/th.o.galizzi/viz/CS6730-2007Crisis/Introduction), ou bien ci dessous (si notre projet vous intéresse, je vous conseille de suivre le lien si vous et de mettre le projet en grand écran). 
+
+<br/><br/>
 
 
 <div class="l-screen">
@@ -38,6 +43,4 @@ Notre projet est disponible en suivant ce [lien](https://public.tableau.com/app/
     </div>
 </div>
 
-<br/><br/>
-<br/><br/>
 <br/><br/>
