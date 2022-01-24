@@ -9,7 +9,7 @@ category: Robotique
 ---
 
 ***
-Ce projet de recherche à été réalisé pour le cours **special project** lors de mon cursus à Georgia Tech, avec le laboratoire de robotique [The DREAM lab](https://dream.georgiatech-metz.fr) de Georgia Tech Lorraine. 
+Ce projet de recherche a été réalisé pour le cours **special project** lors de mon cursus à Georgia Tech, avec le laboratoire de robotique [The DREAM lab](https://dream.georgiatech-metz.fr) de Georgia Tech Lorraine. 
 J'ai travaillé en colaboration avec **Victor Galizzi**, **Martin Puig** et **Jackson Crandell**.
 
 ***
