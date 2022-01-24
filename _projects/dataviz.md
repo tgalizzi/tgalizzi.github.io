@@ -13,7 +13,7 @@ category: Data visualization
   <title>Embedded Analytics with Tableau</title>
 </head>
 <body>
-   <iframe width="1335px" height="894px" src="https://public.tableau.com/views/CS6730-2007Crisis/Introduction?:language=fr-FR&:display_count=n&:origin=viz_share_link">
+   <iframe width="800px" src="https://public.tableau.com/views/CS6730-2007Crisis/Introduction?:language=fr-FR&:display_count=n&:origin=viz_share_link:showVizHome=no&:embed=true">
     </iframe>
 </body>
 </html>
