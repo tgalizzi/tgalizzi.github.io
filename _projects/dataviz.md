@@ -6,7 +6,7 @@ img: assets/img/tableau.png
 importance: 1
 category: Data visualization
 categories: Data visualization
-data: 2021-11-28
+data: 2021-11-28 21:01:00
 ---
 
 ## Le contexte de ce projet
@@ -14,9 +14,9 @@ data: 2021-11-28
 Ce projet a été réalisé pour le cours [**CS 6730 - Data Visualization: Principles & Applications**](https://faculty.cc.gatech.edu/~stasko/6730/) lors de mon cursus à Georgia Tech. Il figure parmis les meilleurs projets de l'année sur le site de classe. 
 J'ai travaillé en colaboration avec **Victor Galizzi** et **Martin Puig**.
 
-Nous avons choisi de travailler sur la crise économique de 2007-2008 aux Etats-Unis. Nos données sont la fusion d'un certains nombre de base de données publiques publiées par les agences gouvernementales des Etats-Unis, sur des sujets comme le marché de l'immobilier, les chiffres sur les prêts hypothèques ou encore sur les emplois.
+Nous avons choisi de travailler sur la **crise économique de 2007-2008 aux Etats-Unis**. Nos données sont la fusion d'un certains nombre de base de données publiques publiées par les agences gouvernementales des Etats-Unis, sur des sujets comme le **marché de l'immobilier**, les chiffres sur les **prêts hypothèques** ou encore sur les **emplois**.
 
-Nous avons travailler avec le logiciel [Tableau](https://www.tableau.com/fr-fr), et construit un projet d'exploration intéractif.
+Nous avons travailler avec le logiciel [**Tableau**](https://www.tableau.com/fr-fr), et construit un projet d'exploration intéractif.
 
 ##   
 
