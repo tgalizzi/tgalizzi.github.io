@@ -16,7 +16,7 @@ pagination:
 <div class="post">
 
   <div class="header-bar">
-    <h1><b>{{ site.blog_name }}</b></h1>
+    <h1>{{ site.blog_name }}</h1>
     <h2>{{ site.blog_description }}</h2>
   </div>
 
@@ -32,7 +32,7 @@ pagination:
     <li>
       <div class="row justify-content-sm-center">
         <div class="col-sm-8 mt-3 mt-md-0">
-      <h3><a class="post-title" href="{{ post.url | prepend: site.baseurl }}"> {{ post.title }} </a>
+      <h3><a class="post-title" href="{{ post.url | prepend: site.baseurl }}"> <b>{{ post.title }}</b> </a>
       </h3>
       <p>{{ post.description }}</p>
       <!-- <p class="post-meta"> {{read_time}} min read &nbsp; &middot; &nbsp;
