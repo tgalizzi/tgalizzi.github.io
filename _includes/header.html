@@ -25,6 +25,7 @@
           <!-- About -->
           <li class="nav-item {% if page.title == 'A propos de moi' %}active{% endif %}">
             <a class="nav-link" href="{{ '/' | relative_url }}">
+              <i class="fas fa-user fa-sm"></i>
             <b>A propos de moi</b>
               {% if page.title == "A propos de moi" %}
                 <span class="sr-only">(current)</span>
@@ -35,6 +36,7 @@
           <!-- Blog -->
           <li class="nav-item {% if page.url contains 'stages' %}active{% endif %}">
             <a class="nav-link" href="{{ '/stages/' | relative_url }}">
+              <i class="fas fa-briefcase"></i>
               <b>Stages</b>
               {% if page.title == "stages" %}
               <span class="sr-only">(current)</span>
