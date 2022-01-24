@@ -32,10 +32,6 @@ Voici notre video de présentation réalisé pour le cours.
 
 Notre projet est disponible en suivant ce [lien](https://public.tableau.com/app/profile/th.o.galizzi/viz/CS6730-2007Crisis/Introduction), ou bien ci dessous (si notre projet vous interesse, je vous conseille de suivre le lien si vous et de mettre le projet en grand écran). 
 
-<br/><br/>
-<br/><br/>
-<br/><br/>
-
 
 <div class="l-screen">
     <div style="text-align:center">
