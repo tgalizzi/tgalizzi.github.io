@@ -6,7 +6,7 @@ img: assets/img/tableau.png
 importance: 1
 category: Data visualization
 categories: Data visualization
-data: 2021-11-28 21:01:00
+date: 2021-11-28 21:01:00
 ---
 
 ## Le contexte de ce projet
