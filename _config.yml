@@ -84,7 +84,7 @@ permalink: /stages/:year/:title/
 
 # Pagination
 pagination:
-  enabled: false
+  enabled: true
 
 # Comments
 disqus_shortname: al-folio # put your disqus shortname
@@ -133,7 +133,7 @@ keep_files:
 
 # Plug-ins
 plugins:
-  # - jekyll-archives
+  - jekyll-archives
   - jekyll-diagrams
   - jekyll-email-protect
   - jekyll-feed
@@ -160,16 +160,12 @@ github: [metadata]
 # Jekyll Archives
 # -----------------------------------------------------------------------------
 
-# jekyll-archives:
-#   enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them). 
-#   layouts:
-#     year: archive-year
-#     tag: archive-tag
-#     category: archive-category
-#   permalinks:
-#     year: '/stages/:year/'
-#     tag: '/stages/tag/:name/'
-#     category: '/stages/category/:name/'
+jekyll-archives:
+  enabled: [year] # enables year, tag and category archives (remove if you need to disable one of them). 
+  layouts:
+    year: archive-year
+  permalinks:
+    year: '/stages/:year/'
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
