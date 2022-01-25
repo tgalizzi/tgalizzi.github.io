@@ -161,11 +161,11 @@ github: [metadata]
 # -----------------------------------------------------------------------------
 
 jekyll-archives:
-  # enabled: [year] # enables year, tag and category archives (remove if you need to disable one of them). 
-  # layouts:
-  #   year: archive-year
-  # permalinks:
-  #   year: '/stages/:year/'
+  enabled: [year] # enables year, tag and category archives (remove if you need to disable one of them). 
+  layouts:
+    year: archive-year
+  permalinks:
+    year: '/stages/:year/'
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
