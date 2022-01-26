@@ -6,6 +6,10 @@ importance: 1
 category: Robotique
 ---
 
+  <head>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+
   <body>
     <div class="card elevation">
       <canvas class="canvas elevation" id="canvas" width="280" height="280"> </canvas>
