@@ -6,7 +6,7 @@ img: assets/img/erato.jpg
 importance: 1
 category: Deep learning
 categories: Deep-Learning NLP
-
+date: 2021-09-28 21:01:00
 toc:
   - name: Abstract
   - name: Le contexte du projet
@@ -15,13 +15,10 @@ toc:
   - name: Bert
 ---
 
-***
 
-***Note***
-
+***Note***:
 Ce projet a été réalisé pour le cours [**CS 7650 - Natural Language Processing**](https://cocoxu.github.io/CS7650_fall2021/) lors de mon cursus à Georgia Tech. J'ai travaillé en colaboration avec **Victor Galizzi** et **Martin Puig**.
 
-***
 
 ## Abstract
 
@@ -45,8 +42,8 @@ Nous avons choisi cette base de données plutôt que des ensembles plus importan
 Ce modèle a été formé de deux manières différentes. Tout d'abord, pour les deux modèles, nous commençons nos entrées par l'auteur, pour essayer de capturer les différents styles entre les auteurs. Nous introduisons également un nouveau séparateur, $<sep>$.
 Après le jeton séparateur, les modèles diffèrent : 
 - Lines : nous divisons chaque poème en lignes, et essayons de prédire la ligne suivante du poème en utilisant la ligne actuelle.   
-   **input** : AUTHOR $<sep>$ $$line_i$$, **target** : $$ligne_{i+1}$$.
-- Mots clés : nous divisons chaque poème en lignes, et essayons de prédire la ligne du poème en utilisant les 3 mots les plus rares de la ligne. **input** : AUTEUR $<sep>$ $$w_1$$ $$w_2$$ $$w_3$$, **target** : $$line_{i}$$
+   **input** : AUTHOR $$<sep>$$ $$line_i$$, **target** : $$ligne_{i+1}$$.
+- Mots clés : nous divisons chaque poème en lignes, et essayons de prédire la ligne du poème en utilisant les 3 mots les plus rares de la ligne. **input** : AUTEUR $$<sep>$$ $$w_1$$ $$w_2$$ $$w_3$$, **target** : $$line_{i}$$
 
 
 Pour créer un poème, nous générons chaque ligne séquentiellement en utilisant la recherche par faisceau. Ensuite, les scores de chaque faisceau sont normalisés, et nous choisissons un faisceau aléatoire pour être notre prochaine ligne en utilisant les scores normalisés. Pendant la génération, nous avons un contexte représenté par des mots clés.
