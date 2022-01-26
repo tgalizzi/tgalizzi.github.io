@@ -59,8 +59,8 @@ En plus des mots clés que nous donnons aux modèles, nous utilisons également 
 Comparaison d'auteur
 </div>
 
-<div class="row">
-    <div class="col-md-auto mt-3 mt-md-0">
+<div class="row justify-content-center">
+    <div class="col-md-auto">
         {% include figure.html path="assets/img/erato/seq3.png" title="example image" class="img-fluid rounded z-depth-1" zoomable="true"%}
     </div>
 </div>
