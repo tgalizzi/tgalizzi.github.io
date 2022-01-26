@@ -15,10 +15,8 @@ toc:
   - name: Bert
 ---
 
-
 ***Note***:
 Ce projet a été réalisé pour le cours [**CS 7650 - Natural Language Processing**](https://cocoxu.github.io/CS7650_fall2021/) lors de mon cursus à Georgia Tech. J'ai travaillé en colaboration avec **Victor Galizzi** et **Martin Puig**.
-
 
 ## Abstract
 
