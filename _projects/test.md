@@ -6,8 +6,6 @@ importance: 1
 category: Robotique
 ---
 
-
-<html>
   <head>
     <link rel="stylesheet" href="/style.css" />
   </head>
@@ -82,4 +80,3 @@ category: Robotique
     <script src="https://cdn.jsdelivr.net/npm/onnxjs/dist/onnx.min.js"></script>
     <script src="{{ '/assets/js/script.js' | relative_url }}"></script>
   </body>
-</html>
