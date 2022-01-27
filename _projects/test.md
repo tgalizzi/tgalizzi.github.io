@@ -3,7 +3,7 @@ layout: post
 title: test 
 description: model
 importance: 1
-category: Robotique
+category: test
 ---
 
   <head>
