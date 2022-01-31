@@ -3,7 +3,7 @@ layout: page
 title: Transfert de Style
 description: Transfert de style pictural avec des CNNs
 importance: 1
-category: Deep Learning
+category: Deep learning
 ---
 
 <div class="row">
