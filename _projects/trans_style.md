@@ -22,6 +22,8 @@ img: assets/img/styletrans/starry_night.jpg
     Caption
 </div>
 
+***
+
 
 <div class="row justify-content-md-center">
     <div class="col-sm mt-3 mt-md-0">
@@ -35,8 +37,11 @@ img: assets/img/styletrans/starry_night.jpg
     </div>
 </div>
 <div class="caption">
-    Caption
+    **Composition VII** de Vassily Kandinsky avec une photo de Paris
 </div>
+
+
+***
 
 
 
@@ -52,8 +57,10 @@ img: assets/img/styletrans/starry_night.jpg
     </div>
 </div>
 <div class="caption">
-    Caption
+    **Le Cri** de  Edvard Munch avec une photo de Paris
 </div>
+
+***
 
 
 <div class="row justify-content-md-center">
@@ -68,5 +75,5 @@ img: assets/img/styletrans/starry_night.jpg
     </div>
 </div>
 <div class="caption">
-    Caption
+    **La Nuit étoilée** de Vincent van Gogh avec une photo de Paris
 </div>
