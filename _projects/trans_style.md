@@ -4,6 +4,7 @@ title: Transfert de Style
 description: Transfert de style pictural avec des CNNs
 importance: 1
 category: Deep learning
+img: assets/img/styletrans/starry_night.jpg
 ---
 
 <div class="row justify-content-md-center">
