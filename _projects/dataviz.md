@@ -2,7 +2,7 @@
 layout: distill
 title: Découverte de Tableau
 description: Exploration de la crise économique de 2007 aux Etats-Unis
-img: assets/img/tableau.png
+img: assets/img/crisis/tableau.png
 importance: 1
 category: Data visualization
 categories: Data visualization

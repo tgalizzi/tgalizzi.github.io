@@ -2,7 +2,7 @@
 layout: post
 title: Autonomous Race Car
 description: Système de navigation autonome pour voiture miniature
-img: assets/img/rc-car.jpg
+img: assets/img/rc/rc-car.jpg
 importance: 1
 categories: Robotique ComputerVision
 category: Robotique

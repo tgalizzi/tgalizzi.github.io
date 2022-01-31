@@ -2,7 +2,7 @@
 layout: distill
 title: Erato
 description: Réseau de neuronnes pour la génération de poèmes 
-img: assets/img/erato.jpg
+img: assets/img/erato/erato.jpg
 importance: 1
 category: Deep learning
 categories: Deep-Learning NLP
