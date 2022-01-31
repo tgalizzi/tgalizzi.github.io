@@ -37,7 +37,7 @@ img: assets/img/styletrans/starry_night.jpg
     </div>
 </div>
 <div class="caption">
-    **Composition VII** de Vassily Kandinsky avec une photo de Paris
+    <b> Composition VII de Vassily Kandinsky </b> avec une photo de Paris
 </div>
 
 
@@ -57,7 +57,7 @@ img: assets/img/styletrans/starry_night.jpg
     </div>
 </div>
 <div class="caption">
-    **Le Cri** de  Edvard Munch avec une photo de Paris
+    <b> Le Cri de  Edvard Munch </b> avec une photo de Paris
 </div>
 
 ***
@@ -75,5 +75,5 @@ img: assets/img/styletrans/starry_night.jpg
     </div>
 </div>
 <div class="caption">
-    **La Nuit étoilée** de Vincent van Gogh avec une photo de Paris
+    <b>La Nuit étoilée de Vincent van Gogh </b> avec une photo de Paris
 </div>
