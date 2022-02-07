@@ -1,8 +1,6 @@
 <!DOCTYPE html>
-<html lang="fr">
-
+<html>
   <head>
-    <meta http-equiv="refresh" content="3; url=https://tgalizzi.github.io/" />
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +10,7 @@
   Théo  Galizzi
 
 
-  | Page not found
+  | Pistage de cibles manoeuvrantes par Deep Learning
 
 </title>
 <meta name="description" content="A beautiful, simple, clean, and responsive Jekyll theme for academics">
@@ -39,7 +37,7 @@
  -->
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="https://tgalizzi.github.io/404.html">
+<link rel="canonical" href="https://tgalizzi.github.io/stages/2020/onera/">
 
 
 <!-- Dark Mode -->
@@ -47,7 +45,63 @@
 <script src="/assets/js/dark_mode.js"></script>
 
 
+    
+<!-- MathJax -->
+<script type="text/javascript">
+  window.MathJax = {
+    tex: {
+      tags: 'ams'
+    }
+  };
+</script>
+<script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+<script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+
+    <script src="/assets/js/distillpub/template.v2.js"></script>
+    <script src="/assets/js/distillpub/transforms.v2.js"></script>
+    <script src="/assets/js/distillpub/overrides.js"></script>
+    
+    <style type="text/css">
+      .fake-img {
+  background: #bbb;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 12px;
+} .fake-img p {
+  font-family: monospace;
+  color: white;
+  text-align: left;
+  margin: 12px 0;
+  text-align: center;
+  font-size: 16px;
+}
+
+    </style>
+    
+    
   </head>
+
+  <d-front-matter>
+    <script async type="text/json">{
+      "title": "Pistage de cibles manoeuvrantes par Deep Learning",
+      "description": "ONERA, Palaiseau",
+      "katex": {
+        "delimiters": [
+          {
+            "left": "$",
+            "right": "$",
+            "display": false
+          },
+          {
+            "left": "$$",
+            "right": "$$",
+            "display": true
+          }
+        ]
+      }
+    }</script>
+  </d-front-matter>
 
   <body class="fixed-top-nav sticky-bottom-footer">
 
@@ -78,7 +132,7 @@
           </li>
           
           <!-- Blog -->
-          <li class="nav-item ">
+          <li class="nav-item active">
             <a class="nav-link" href="/stages/">
               <i class="fas fa-briefcase"></i>
               <b>Stages</b>
@@ -161,20 +215,66 @@
 
     <!-- Content -->
 
-    <div class="container mt-5">
-      <div class="post">
+    <div class="post distill">
 
-  <header class="post-header">
-    <h1 class="post-title">Page not found</h1>
-    <p class="post-description">Looks like there has been a mistake. Nothing exists here.</p>
-  </header>
+      <d-title>
+        <h1>Pistage de cibles manoeuvrantes par Deep Learning</h1>
+        <p>ONERA, Palaiseau</p>
+         <p> <i class="fas fa-calendar fa-sm"></i> 2020         
+         </p>
+<p> <i class="fas fa-hourglass-half fa-sm"></i> 6 mois </p> 
+      </d-title>
 
-  <article>
-    <p>You will be redirected to the main page within 3 seconds. If not redirected, please click <a href="https://tgalizzi.github.io/">here</a>.</p>
+      <d-byline></d-byline>
+      <d-article>
+        
+        <d-contents>
+          <nav class="l-text figcaption">
+          <h3>Sommaire</h3>
+            
+            <div><a href="#l'onera">L'ONERA</a></div>
+            
+            
+            <div><a href="#ma-mission">Ma mission</a></div>
+            
+            
+            <div><a href="#bilan">Bilan</a></div>
+            
+            
+          </nav>
+        </d-contents>
+        
 
-  </article>
+        <h2 id="lonera">L’ONERA</h2>
 
-</div>
+<ul>
+  <li>L’ONERA (l’Office national d’études et de recherches aérospatiales) a pour mission :
+    <ul>
+      <li>De développer et d’orienter les recherches dans le domaine aérospatial</li>
+      <li>De concevoir, de réaliser, de mettre en œuvre les moyens nécessaires à l’exécution de ces recherches</li>
+      <li>D’assurer, en liaison avec les services ou organismes chargés de la recherche scientifique et technique, la diffusion sur le plan national et international des résultats de ces recherches, d’en favoriser la valorisation par l’industrie aérospatiale et de faciliter éventuellement leur application en dehors du domaine aérospatial</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="ma-mission">Ma mission</h2>
+
+<p>En pistage radar, les méthodes traditionnelles, notamment de filtrage, requièrent des hypothèses de dynamique des cibles. De nouvelles méthodes, notamment de <strong>deep learning</strong> pourraientt permettre de s’affranchir de ces limitations liées à la modélisation.
+L’objet de mon stage était donc d’appréhender parmi ces méthodes, quelles sont celles potentiellement applicables au pistage de cibles par senseurs électromagnétiques, en prenant en compte les spécificités des mesures et espace de représentations liés à ces senseurs.</p>
+
+<h2 id="bilan">Bilan</h2>
+
+<p>Ce stage m’a permis de developper des compétences primordiales pour un ingénieur. Travaillant en total autonomie, j’ai du d’abord m’approprier les méthodes traditionnelles de pistage radar, pour comprendre comment appliquer mes compétences dans ce domaine. Après un travail de documentation et la lecture de la littérature scientifique à ce sujet, j’ai pu expérimenter des méthodes de deep learning appliquées au pistage.
+J’avais également un rôle de vulgarisation, une partie de l’équipe n’ayant pas de connaissance en deep learning, mais une très grande expertise radar.</p>
+
+<p><br><br></p>
+
+      </d-article>
+
+      <!-- <d-appendix>
+        <d-footnote-list></d-footnote-list>
+        <d-citation-list></d-citation-list>
+      </d-appendix> -->
 
     </div>
 
@@ -194,49 +294,7 @@
 
   </body>
 
-  <!-- jQuery -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
-
-  <!-- Bootsrap & MDB scripts -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js" integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A==" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js" integrity="sha512-Mug9KHKmroQFMLm93zGrjhibM2z2Obg9l6qFG2qKjXEXkMp/VDkI4uju9m4QKPjWSwQ6O2qzZEnJDEeCw0Blcw==" crossorigin="anonymous"></script>
-
-  
-<!-- Mansory & imagesLoaded -->
-<script defer src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
-<script defer src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
-<script defer src="/assets/js/mansory.js" type="text/javascript"></script>
-
-
-  
-
-
-<!-- Medium Zoom JS -->
-<script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js" integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=" crossorigin="anonymous"></script>
-<script src="/assets/js/zoom.js"></script>
-
-
-<!-- Load Common JS -->
-<script src="/assets/js/common.js"></script>
-
-  
-<!-- MathJax -->
-<script type="text/javascript">
-  window.MathJax = {
-    tex: {
-      tags: 'ams'
-    }
-  };
-</script>
-<script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
-<script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-
-
-  
-
-
-
-
+  <!-- <d-bibliography src="/assets/bibliography/">
+  </d-bibliography> -->
 
 </html>
